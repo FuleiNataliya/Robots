@@ -24,5 +24,26 @@ public class Main {
             robotForm3.SuperRobot();
 
         }
+
+        Random rand = new Random();
+        char c = (char)(rand.nextInt(3) + 'A');
+        System.out.println((char)c);
+
+        if (c<='A') {
+            PlanetSea planetSea = new PlanetSea();
+            System.out.println(planetSea.toString());
+            planetSea.RobotSea();
+
+        } else if (c>='B' && c<='C') {
+            PlanetSun planetSun = new PlanetSun();
+            System.out.println(planetSun.toString());
+            planetSun.RobotSun();
+
+        } else {
+            PlanetWind planetWind = new PlanetWind();
+            System.out.println(planetWind.toString());
+            planetWind.RobotWind();
+
+        }
     }
 }
