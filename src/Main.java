@@ -4,23 +4,25 @@ public class Main {
     
     public static void main(String[] args) {
 
-        RobotForm1 robotForm1 = new RobotForm2();
-        RobotForm2 robotForm2 = new RobotForm2();
-        RobotForm3 robotForm3 = new RobotForm3();
-
-        robotForm1.power();
-        robotForm2.Robot();
-        robotForm3.SuperRobot();
-
         Random random = new Random();
-        int r = random.nextInt(12);
+        int r = random.nextInt(12)+1;
         System.out.println(r);
-        if (r<=3) {
+
+        if (r>=1 & r<=3) {
+            RobotForm1 robotForm1 = new RobotForm1("GTI", "ircle", 2001);
             System.out.println(robotForm1.toString());
-        } else if (r>3 && r<=8) {
+            robotForm1.power();
+
+        } else if (r>=4 & r<=8) {
+            RobotForm2 robotForm2 = new RobotForm2();
             System.out.println(robotForm2.toString());
-        } else if (r>9 && r<=12) {
+            robotForm2.Robot();
+
+        } else {
+            RobotForm3 robotForm3 = new RobotForm3();
             System.out.println(robotForm3.toString());
+            robotForm3.SuperRobot();
+
         }
     }
 }

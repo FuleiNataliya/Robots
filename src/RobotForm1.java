@@ -1,51 +1,51 @@
 public class RobotForm1 {
-    private String shout;
-    private String shoot;
-    private String move;
+    private String model;
+    private String form;
+    private int year;
 
     public RobotForm1() {
     }
 
-    public RobotForm1(String shout, String shoot, String move) {
-        this.shout = shout;
-        this.shoot = shoot;
-        this.move = move;
+    public RobotForm1(String model, String form, int year) {
+        this.model = model;
+        this.form = form;
+        this.year = year;
     }
 
     public void power() {
         System.out.println("Power");
     }
 
-    public void setShout(String shout) {
-        this.shout = shout;
+    public void setModel(String model) {
+        this.model = model;
     }
 
-    public void getShoot(String shoot) {
-        this.shoot = shoot;
+    public void getForm(String form) {
+        this.form = form;
     }
 
-    public void setMove(String move) {
-        this.move = move;
+    public void setYear(String move) {
+        this.year = year;
     }
 
-    public String getShout() {
-        return shout;
+    public String getModel() {
+        return model;
     }
 
-    public String getShoot() {
-        return shoot;
+    public String getForm() {
+        return form;
     }
 
-    public String getMove() {
-        return move;
+    public int getYear() {
+        return year;
     }
 
     @Override
     public String toString() {
         return "RobotForm1{" +
-                "shout='" + shout + '\'' +
-                ", shoot='" + shoot + '\'' +
-                ", move='" + move + '\'' +
+                "model='" + model + '\'' +
+                ", form='" + form + '\'' +
+                ", year='" + year + '\'' +
                 '}';
     }
 }

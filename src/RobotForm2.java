@@ -5,8 +5,8 @@ public class RobotForm2 extends RobotForm1{
     public RobotForm2() {
     }
 
-    public RobotForm2(String shout, String shoot, String move, String name) {
-        super(shoot, move, shout);
+    public RobotForm2(String model, String form, int year, String name) {
+        super(model, form, year);
         this.name = name;
     }
         public void Robot(){
