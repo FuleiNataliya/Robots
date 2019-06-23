@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f22ed6b-3801-4658-9719-fe35209cadd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PlanetSea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PlanetSun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PlanetWind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Planet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Robots/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Robots/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Robots/PlanetSea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Robots/PlanetSun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Robots/PlanetWind.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlanetSea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlanetSea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlanetSun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlanetSun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlanetWind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlanetWind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RobotForm2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RobotForm2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RobotForm3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RobotForm3.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -73,7 +82,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

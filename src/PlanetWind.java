@@ -1,3 +1,4 @@
+/*
 public class PlanetWind {
     private String windProtection;
     private String strength;
@@ -24,3 +25,4 @@ public class PlanetWind {
 }
 
 
+*/

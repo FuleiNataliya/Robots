@@ -1,4 +1,4 @@
-public class RobotForm2 extends RobotForm1{
+public class RobotForm2 extends RobotForm1 {
 
     private String name = "robot policeman";
 

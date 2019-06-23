@@ -1,4 +1,4 @@
-public class RobotForm3 extends RobotForm2{
+public class RobotForm3 extends RobotForm2 {
 
     private String weapon ;
 

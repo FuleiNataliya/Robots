@@ -1,3 +1,4 @@
+/*
 public class PlanetSun {
     private String heatResistance;
     private String withstandHighTemperature;
@@ -22,3 +23,4 @@ public class PlanetSun {
                 '}';
     }
 }
+*/
