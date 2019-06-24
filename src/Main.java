@@ -39,7 +39,7 @@ public class Main {
 
         } else if (c=='C'){
             Planet planet2 = Planet.WIND;
-            System.out.println(planet2.getHeatResistance());
+            System.out.println(planet2.getWindProtection());
 
         }
 
