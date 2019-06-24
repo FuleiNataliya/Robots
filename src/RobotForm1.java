@@ -48,4 +48,5 @@ public class RobotForm1 {
                 ", year='" + year + '\'' +
                 '}';
     }
+
 }
