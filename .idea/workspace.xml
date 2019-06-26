@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="99e75d18-71be-4621-832b-86dbf20fede4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/robots/RobotForm1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/robots/RobotForm1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/robots/RobotForm2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/robots/RobotForm2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/robots/RobotForm3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/robots/RobotForm3.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +21,7 @@
   <component name="ProjectId" id="1N6oPoucQCJ1J2p9sAyplHjNFwo" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />

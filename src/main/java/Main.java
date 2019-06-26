@@ -32,7 +32,7 @@ public class Main {
         }
 
         char c = (char) (random.nextInt(3) + 'A');
-        System.out.println((char) c);
+        System.out.println(c);
 
         if (c == 'A') {
             Planet planet = Planet.SEA;

@@ -1,5 +1,5 @@
-.txt
-.md
-.iml
-.idea/
-out/
+*.txt
+*.md
+*.iml
+.idea
+out

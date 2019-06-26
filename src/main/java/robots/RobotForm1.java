@@ -44,11 +44,9 @@ public class RobotForm1 {
 
     @Override
     public String toString() {
-        return "main.java.robots.RobotForm1{" +
-                "model='" + model + '\'' +
-                ", form='" + form + '\'' +
-                ", year='" + year + '\'' +
-                '}';
+        return super.toString();
+         }
     }
 
-}
+
+
