@@ -1,3 +1,5 @@
+package main.java.robots;
+
 public class RobotForm1 {
     private String model;
     private String form;
@@ -42,7 +44,7 @@ public class RobotForm1 {
 
     @Override
     public String toString() {
-        return "RobotForm1{" +
+        return "main.java.robots.RobotForm1{" +
                 "model='" + model + '\'' +
                 ", form='" + form + '\'' +
                 ", year='" + year + '\'' +
