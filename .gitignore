@@ -1,5 +1,6 @@
 *.txt
 *.md
 *.iml
+.env
 .idea/
 out/
