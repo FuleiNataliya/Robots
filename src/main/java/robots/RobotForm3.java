@@ -5,7 +5,6 @@ public class RobotForm3 extends RobotForm2 {
     private String weapon;
 
     public RobotForm3(String weapon) {
-        super();
         this.weapon = weapon;
     }
 
@@ -15,7 +14,8 @@ public class RobotForm3 extends RobotForm2 {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "main.java.robots.RobotForm3{" +
+                "weapon='" + weapon + '\'' +
+                '}';
     }
 }
-
