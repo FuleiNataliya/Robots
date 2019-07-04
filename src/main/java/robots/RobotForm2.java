@@ -2,27 +2,22 @@ package main.java.robots;
 
 public class RobotForm2 extends RobotForm1 {
 
-    private String name = "robot policeman";
+    private String name = "robot-policman";
 
     public RobotForm2() {
-    }
-
-    public RobotForm2(String model, String form, int year, String name) {
-        super(model, form, year);
-        this.name = name;
+        super();
     }
 
     public RobotForm2(String name) {
+        this.name = name;
     }
 
     public void Robot() {
-        System.out.println("robot policeman says Stop");
+        System.out.println("Says Stop" + name);
     }
 
     @Override
     public String toString() {
-        return "main.java.robots.RobotForm2{" +
-                "name='" + name + '\'' +
-                '}';
+        return super.toString();
     }
 }

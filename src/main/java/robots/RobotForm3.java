@@ -9,13 +9,11 @@ public class RobotForm3 extends RobotForm2 {
     }
 
     public void SuperRobot() {
-        System.out.println("robot policeman takes the weapon" + weapon);
+        System.out.println("robot policeman takes the " + weapon);
     }
 
     @Override
     public String toString() {
-        return "main.java.robots.RobotForm3{" +
-                "weapon='" + weapon + '\'' +
-                '}';
+        return super.toString();
     }
 }
