@@ -1,5 +1,5 @@
 *.txt
 *.md
-Robots.iml
-.idea
+*.iml
+.idea/
 out/
